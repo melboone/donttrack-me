@@ -21,5 +21,7 @@
 	font-style:normal;
 }
 
+/* Symbols */
+.conversation-symbol, .email-symbol, .down-arrow-symbol, .house-symbol, .twitter-symbol, .share-symbol, .x-symbol, .external-symbol, .google-symbol, .facebook-symbol, .settings-symbol, .rss-symbol, .right-symbol, .star-symbol, .round-symbol{font-family: "Vadikom Icons"}
+
 /* Menu */
-.conversation-symbol{font-family:"Vadikom Icons"}

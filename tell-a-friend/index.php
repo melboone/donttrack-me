@@ -211,7 +211,7 @@
 			   </tr>
 			   <tr>
 				   <td colspan="2">
-						<textarea name="message" id="message" cols="63" rows="5" placeholder="At least 5 characters are required. ================================================================ No information is collected with this form."><?php echo $_POST["message"]?></textarea>
+						<textarea name="message" id="message" cols="50" rows="5" placeholder="At least 5 characters are required. ==================================================== No information is collected with this form."><?php echo $_POST["message"]?></textarea>
 				   </td>
 			   </tr>
 			   <tr>

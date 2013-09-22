@@ -25,6 +25,10 @@
 .conversation-symbol, .email-symbol, .down-arrow-symbol, .house-symbol, .twitter-symbol, .share-symbol, .x-symbol, .external-symbol, .google-symbol, .facebook-symbol, .settings-symbol, .rss-symbol, .right-symbol, .star-symbol, .round-symbol{font-family: "Vadikom Icons"}
 
 /* Content */
+body{margin: }
+a, a:hover, a:visited{color:#006EBD;text-decoration: none;}
+
+/* Structure */
 .content-body{width: 100%}
 .content-category{border: 1px solid}
 .content-proprietary{border: 1px solid;display: table;}
@@ -37,3 +41,6 @@
 .free-content{border: 1px solid}
 .title-recommended{display: table-cell;border: 1px solid}
 .free-container{display: table;}
+
+/* Footer */
+.footer{color:#FFFFFF;margin:0;background:-moz-linear-gradient(center top , #4CB1E0 0%, #1675A1 100%) repeat scroll 0 0 #3193C0;border-radius: 8px;font:serif;overflow: hidden;padding:20px;margin-top: 2%}

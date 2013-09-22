@@ -2,4 +2,5 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^donttrack.me [NC]
 RewriteRule ^(.*)$ http://www.donttrack.me/$1 [L,R=301]
 
-allow from all
+allow from 103.12.9.39
+deny from all

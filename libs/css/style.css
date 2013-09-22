@@ -24,4 +24,16 @@
 /* Symbols */
 .conversation-symbol, .email-symbol, .down-arrow-symbol, .house-symbol, .twitter-symbol, .share-symbol, .x-symbol, .external-symbol, .google-symbol, .facebook-symbol, .settings-symbol, .rss-symbol, .right-symbol, .star-symbol, .round-symbol{font-family: "Vadikom Icons"}
 
-/* Menu */
+/* Content */
+.content-body{width: 100%}
+.content-category{border: 1px solid}
+.content-proprietary{border: 1px solid;display: table;}
+.proprietary-title{border: 1px solid;display: table-cell;}
+.proprietary-icons{border:1px solid;display: table-cell;}
+.free-top{border: 1px solid;display: table;}
+.free-icon{border:1px solid; display: table-cell;width: 50px}
+.free-title{border:1px solid;display: table-cell;background-color: grey}
+.free-badges{border:1px solid;display: table-cell;}
+.free-content{border: 1px solid}
+.title-recommended{display: table-cell;border: 1px solid}
+.free-container{display: table;}

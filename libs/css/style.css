@@ -26,11 +26,11 @@
 
 /* Content */
 a, a:hover, a:visited{color:#006EBD;text-decoration: none;}
-
+.p-large-icon{font-size: 22px;color: #4682B4}
+.content-body{width:99%;padding: 7px}
 
 /* Structure */
 .category-title{font-size: 18px;font-variant: small-caps;padding-left: 20px}
-.content-body{width: 100%}
 .content-category{border: 1px solid #c9c9c9;color:#333333;}
 .content-proprietary{border: 1px solid;display: table;}
 .proprietary-container{width:100%;border-top:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9 }

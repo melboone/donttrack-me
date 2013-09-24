@@ -6,12 +6,12 @@
 <!-- CSS  -->
 	<link rel='stylesheet' href='/libs/css/style.css' >
 	<link rel='stylesheet' href='/libs/css/menu.css' >
+	<link rel='stylesheet' href='/libs/css/font-awesome.min.css' >
 	
 <!-- Javascript  -->
 	<script type="text/javascript" src="/libs/js/menu.jquery.min.js"></script>
 	<script type="text/javascript" src="/libs/js/menu.common.js"></script>
 	<script type="text/javascript" src="/libs/js/tell.friend.popup.js"></script>
-
 <!-- Icons  -->
 	<link rel='shortcut icon' href='/libs/ico/favicon.png' >
 
@@ -51,7 +51,7 @@
 			</ul>
 				</li>
 		
-		<li><a title="Contribute to DontTrack.me" href="/help/contribute/index.html"><span class="conversation-symbol">m </span>Contribute</a></li>
+		<li><a title="Contribute to DontTrack.me" href="https://gitlab.com/public/projects?utf8=%E2%9C%93&amp;search=donttrack.me"><i class="icon-comments"></i> Contribute</a></li>
 		<li><a href="javascript:popup()"><span class="email-symbol">l </span>Tell a friend</a></li>
 	</ul>
 </div><!-- End Menu -->
@@ -65,22 +65,51 @@
 
 	<!-- Content -->
 	<div class="content-body">
-		<div class="content-category">Category
-			<div class="proprietary">
+	<!-- Operating System -->
+		<div class="content-category"><p class="category-title">Operating Systems</p>
+			<div class="proprietary-container">
+				<div class="proprietary-icon"><i class="icon-thumbs-down-alt"></i></div>
 				<div class="proprietary-title">Proprietary Software</div>
-				<div class="proprietary-icons">icons</div>
+				<div class="proprietary-icons-container">
+					<span class="proprietary-software-icon"><img alt="Microsoft Windows icon" title="Microsoft Windows" src="libs/images/operating-systems/proprietary/microsoft-windows.png"><br>Microsoft Windows</span>
+					<span class="proprietary-software-icon"><img alt="Microsoft Windows icon" title="Microsoft Windows" src="libs/images/operating-systems/proprietary/apple-os.png"><br>Apple OSM</span>
+					<span class="proprietary-software-icon"><img alt="Microsoft Windows icon" title="Microsoft Windows" src="libs/images/operating-systems/proprietary/chrome-os.png"><br>Chrome OS</span>
+				</div>
 			</div>
 			<div class="free-top">
-				<div class="icon-recommended">icon</div>
-				<div class="title-recommended">Recommended Software</div>
+				<div class="free-icon"><i class="icon-thumbs-up-alt"></i></div>
+				<div class="free-title-recommended">Recommended Software</div>
 			</div>
-			<div class="free-container">
-				<div class="free-icon">icon</div>
-				<div class="free-title">title</div>
-				<div class="free-badges">badge</div>
+			<div class="free-software">
+				<div class="free-software-icon">
+				<img src="/libs/images/operating-systems/free/linuxmint.png" alt="Linux Mint ico" Title="Linux Mint">
+				</div>
+					<div class="free-title-software">
+					<a href="http://linuxmint.com/" title="Linux Mint Official Website">Linux Mint</a>
+					</div>
+						<div class="free-badges">
+							<i class="icon-book"></i><span class="badge-text">Open-Source</span>
+							<i class="icon-check"></i><span class="badge-text">Easyest to use</span>
+						</div>
 			</div>
-			<div class="free-content">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+			<div class="free-software-content">
+				<p>The purpose of Linux Mint is to produce a modern, elegant and comfortable operating system which is both powerful and easy to use.</p>
+				<p>Started in 2006, Linux Mint is now the 4th most widely used home operating system behind Microsoft Windows, Apple Mac OS and Canonical's Ubuntu.</p>
 			</div>
+				<div class="free-software-icon">
+					<img src="/libs/images/operating-systems/free/debian.png" alt="Linux Mint ico" Title="Linux Mint">
+				</div>
+						<div class="free-title-software">
+							<a href="http://www.debian.org/" title="Linux Mint Official Website">Debian</a>
+						</div>
+							<div class="free-badges">
+								<i class="icon-book"></i><span class="badge-text">Open-Source</span>
+								<i class="icon-road"></i><span class="badge-text">Most stable</span>
+							</div>
+			<div class="free-software-content">
+				<p>Debian Linux is a ethical linux which supports <u>only</u> free software.</p>
+				<p>Founded in 1993m, Debian Linux is used as a base platform for more than 25 other Linux distributions like: Ubuntu and Linux Mint.</p>
+			</div>			
 		</div>
 	</div>
 <!-- End Content -->

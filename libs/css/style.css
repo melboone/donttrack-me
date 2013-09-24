@@ -1,22 +1,22 @@
 /*  Fonts */
 @font-face {
 	font-family:'Vadikom Icons';
-	src:url('../fonts/vadikom_icons.eot');
-	src:url('../fonts/vadikom_icons.eot?') format('embedded-opentype'),
-		url('../fonts/vadikom_icons.woff') format('woff'),
-		url('../fonts/vadikom_icons.ttf') format('truetype'),
-		url('../fonts/vadikom_icons.svg') format('svg');
+	src:url('/libs/fonts/vadikom_icons.eot');
+	src:url('/libs/fonts/vadikom_icons.eot?') format('embedded-opentype'),
+		url('/libs/fonts/vadikom_icons.woff') format('woff'),
+		url('/libs/fonts/vadikom_icons.ttf') format('truetype'),
+		url('/libs/fonts/vadikom_icons.svg') format('svg');
 	font-weight:normal;
 	font-style:normal;
 }
 
 @font-face {
 	font-family:'PT Sans Narrow';
-	src:url('../fonts/pt_sans_narrow_bold.eot');
-	src:url('../fonts/pt_sans_narrow_bold.eot?') format('embedded-opentype'),
-		url('../fonts/pt_sans_narrow_bold.woff') format('woff'),
-		url('../fonts/pt_sans_narrow_bold.ttf') format('truetype'),
-		url('../fonts/pt_sans_narrow_bold.svg') format('svg');
+	src:url('/libs/fonts/pt_sans_narrow_bold.eot');
+	src:url('/libs/fonts/pt_sans_narrow_bold.eot?') format('embedded-opentype'),
+		url('/libs/fonts/pt_sans_narrow_bold.woff') format('woff'),
+		url('/libs/fonts/pt_sans_narrow_bold.ttf') format('truetype'),
+		url('/libs/fonts/pt_sans_narrow_bold.svg') format('svg');
 	font-weight:bold;
 	font-style:normal;
 }
@@ -25,22 +25,28 @@
 .conversation-symbol, .email-symbol, .down-arrow-symbol, .house-symbol, .twitter-symbol, .share-symbol, .x-symbol, .external-symbol, .google-symbol, .facebook-symbol, .settings-symbol, .rss-symbol, .right-symbol, .star-symbol, .round-symbol{font-family: "Vadikom Icons"}
 
 /* Content */
-body{margin: }
 a, a:hover, a:visited{color:#006EBD;text-decoration: none;}
 
+
 /* Structure */
+.category-title{font-size: 18px;font-variant: small-caps;padding-left: 20px}
 .content-body{width: 100%}
-.content-category{border: 1px solid}
+.content-category{border: 1px solid #c9c9c9;color:#333333;}
 .content-proprietary{border: 1px solid;display: table;}
-.proprietary-title{border: 1px solid;display: table-cell;}
-.proprietary-icons{border:1px solid;display: table-cell;}
-.free-top{border: 1px solid;display: table;}
-.free-icon{border:1px solid; display: table-cell;width: 50px}
-.free-title{border:1px solid;display: table-cell;background-color: grey}
-.free-badges{border:1px solid;display: table-cell;}
-.free-content{border: 1px solid}
-.title-recommended{display: table-cell;border: 1px solid}
-.free-container{display: table;}
+.proprietary-container{width:100%;border-top:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9 }
+.proprietary-title{display: table-cell;padding:5px;width: 10%}
+.proprietary-icons-container{display: table-cell;width:100%;}
+.proprietary-icon{display: table-cell;color:#ff4500;font-size: 30px;padding:5px;border-right:1px solid #c9c9c9}
+.proprietary-software-icon{padding:5px 5px 5px 15px;display: table-cell;text-align: center;}
+.free-top{display: table;width:100%;}
+.free-software-icon{border-right:1px solid #c9c9c9; display: table-cell;width: 50px;padding: 5px}
+.free-title-software{display: table-cell;width: auto;padding: 5px;vertical-align: middle;}
+.free-badges{display: table-cell;width: auto;vertical-align: middle;padding-left: 10px}
+.free-software-content{padding:5px;border-top:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9;}
+.free-title-recommended{display: table-cell;width: 100%;border-bottom: 1px solid #c9c9c9;padding: 5px}
+.free-software{display: table;}
+.free-icon{color:#32CD32;border-right: 1px solid #c9c9c9;padding:5px;font-size: 30px;border-bottom: 1px solid #c9c9c9}
+.badge-text{font-size: 12px;line-height: 18px; padding: 0 0.4em;vertical-align: text-bottom;}
 
 /* Footer */
 .footer{color:#FFFFFF;margin:0;background:-moz-linear-gradient(center top , #4CB1E0 0%, #1675A1 100%) repeat scroll 0 0 #3193C0;border-radius: 8px;font:serif;overflow: hidden;padding:20px;margin-top: 2%}

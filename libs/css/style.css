@@ -28,7 +28,7 @@ body{direction: ltr;}
 .legend{margin:2% 2% 0 2%}
 .content-body-article{margin:0 25%;padding:10px;width:50%;;margin-top:2%;box-shadow:0 0 5px #808080;border-radius:15px}
 .p-large-icon{font-size: 22px;color: #4682B4}
-.content-category{border: 1px solid #c9c9c9;color:#333333;margin-top: 1%}
+.content-category{border: 1px solid #c9c9c9;color:#333333;margin-top: 1%;box-shadow: 0 0 3px #000}
 .free-badges{display: inline-block;margin-left: 2em;border:1px inset #c9c9c9;padding: 5px}
 .free-icon{color:#32CD32;font-size: 30px}
 .reco{display: table-cell !important;vertical-align: top;border-right: 1px solid #c9c9c9;padding:0 10px;border-top: 1px solid #c9c9c9}
@@ -36,7 +36,7 @@ body{direction: ltr;}
 .free-software-row-2{display: table-cell;width: 50%}
 p.legend i{border: none;padding:5px;}
 div.free-software-row-1 > :nth-child(odd) span{display: inline-block;margin-left: 2em;border:1px inset #c9c9c9;padding: 5px;font-size: 12px}
-div.free-software-row-2 > :nth-child(odd) span{display: inline-block;margin-left: 2em;border:1px inset #c9c9c9;padding: 5px;font-size: 12px}
+div.free-software-row-2 > :nth-child(odd) span{display: inline-block;margin-left: 2em;border:1px inset #c9c9c9;padding: 5px;font-size: 12px;border-radius: 5px}
 div.proprietary-icons-container span{margin-left:1%;display: table-cell;padding:10px;text-align: center}
 i.icon-thumbs-down-alt{color:#ff4500;font-size: 30px;padding:10px;border-right:1px solid #c9c9c9}
 div.proprietary-icons-container i {display: table-cell}
@@ -47,8 +47,8 @@ div.free-software-row-2 > :nth-child(odd) a{display: inline-block;vertical-align
 div.free-software-row-2 > :nth-child(odd) a{display: inline-block;vertical-align: middle;}
 div.free-software-row-1 > :nth-child(odd){border-bottom: 1px solid #c9c9c9;border-top: 1px solid #c9c9c9}
 div.free-software-row-2 > :nth-child(odd){border-bottom: 1px solid #c9c9c9;border-top: 1px solid #c9c9c9}
-div.free-software-row-1 > :nth-child(even){padding:5px;font-size: 14px}
-div.free-software-row-2 > :nth-child(even){padding:5px;font-size: 14px}
+div.free-software-row-1 > :nth-child(even){padding:5px;font-size: 14px;min-height: 80px}
+div.free-software-row-2 > :nth-child(even){padding:5px;font-size: 14px;min-height: 80px}
 div.content-category h2{font-size: 18px;font-variant: small-caps;display:block;padding: 1%;}
 ul#main-menu a{background-color: inherit;background-image: none}
 p.legend a{font-weight:bold;font-size:20px;margin-right:20px;display: inline;color: #333333}
@@ -58,3 +58,7 @@ i.icon-unlock-alt{color:#FF6347;}
 a, a:hover, a:visited{color:#006EBD;text-decoration: none;}
 p::first-letter{text-transform: uppercase;}
 i.icon-thumbs-up-alt{color: #32CD32;font-size: 30px}
+i.icon-android{color: #008000}
+i.icon-apple{color: #808080}
+* i {font-size:16px;padding:0 3px}
+span > i:nth-of-type(2){padding-left:10px;}

@@ -34,6 +34,14 @@ body{direction: ltr;}
 .reco{display: table-cell !important;vertical-align: top;border-right: 1px solid #c9c9c9;padding:0 10px;border-top: 1px solid #c9c9c9}
 .free-software-row-1{display: table-cell;width: 50%;border-right: 1px solid #c9c9c9}
 .free-software-row-2{display: table-cell;width: 50%}
+.show{color:#FFF;font-size:0.9em;background-color:#317082;width:430px;margin-bottom:2px;margin-top:2px;padding-left:2px;height:20px;
+	/* End layout CSS */
+	overflow:hidden;
+	cursor:pointer;}
+.more{border-top:1px dashed #c9c9c9;width:100%;
+	/* End layout CSS */
+	visibility:hidden;height:0px;overflow:hidden;position:relative;}
+.more_content{padding:1px;font-size:0.9em;position:relative;}
 p.legend i{border: none;padding:5px;}
 div.free-software-row-1 > :nth-child(odd) span{display: inline-block;margin-left: 2em;border:1px inset #c9c9c9;padding: 5px;font-size: 12px}
 div.free-software-row-2 > :nth-child(odd) span{display: inline-block;margin-left: 2em;border:1px inset #c9c9c9;padding: 5px;font-size: 12px;border-radius: 5px}

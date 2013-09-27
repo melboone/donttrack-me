@@ -24,7 +24,7 @@ function showHideContent(e,inputId)
 			slideContent(dhtmlgoodies_activeId,(dhtmlgoodies_slideSpeed*-1));
 		}else{
 
-			answerDiv.style.display='block';
+			answerDiv.style.display='none';
 			answerDiv.style.visibility = 'visible';
 
 			slideContent(numericId,dhtmlgoodies_slideSpeed);
